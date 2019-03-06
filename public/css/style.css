@@ -1,0 +1,25 @@
+a {
+  text-decoration: white;
+  color: orangered;
+}
+a:hover {
+  text-decoration: orangered;
+  color: white;
+}
+
+.App {
+  width: 100%;
+}
+.App .buttonsGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
