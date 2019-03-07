@@ -1,10 +1,18 @@
 @import "thema/App";
+@import "thema/Header";
 
 
-body {
+body, html {
   margin: 0;
-  padding: 20px;
-  background-color: black;
+  background-size: contain;
+  -moz-background-size: contain;
+}
+
+h3 {
+  margin: 10px 20px;
+  padding: 0;
+  font-size: 20px;
+  color: white;
 }
 
 
