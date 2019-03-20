@@ -1,0 +1,21 @@
+.Navigation {
+  position: relative;
+  text-align: center;
+  ul {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    li {
+      margin-right: 50px;
+    }
+  }
+  a {
+    color: #fcf803;
+    text-decoration: none;
+    &:hover {
+      color: white;
+    }
+  }
+}

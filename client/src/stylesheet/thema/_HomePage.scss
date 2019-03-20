@@ -1,0 +1,35 @@
+@keyframes moveItem {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.HomePage {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  .animatedDiv {
+    max-width: 700px;
+    margin: auto;
+    h3 {
+      text-align: center;
+      text-shadow: 5px 5px 7px black;
+      font-size: 24px;
+      color: #FFFFFF;
+      animation: moveItem 0.7s ease-in;
+    }
+    p {
+      text-align: center;
+      text-shadow: 5px 5px 7px black;
+      font-size: 24px;
+      color: #FFFFFF;
+      animation: moveItem 1s ease-in;
+    }
+  }
+}
